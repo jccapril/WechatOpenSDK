@@ -16,11 +16,6 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .binaryTarget(name: "WechatOpenSDK", url: "https://github.com/jccapril/jccapril.github.io/releases/download/1.0.0/WechatOpenSDK.xcframework.zip", checksum: "84ec8108ed82017392918cc533be38760738c09a5aaa716c31ac680cd4ce90d2"),
-        .testTarget(
-            name: "WechatOpenSDKTests",
-            dependencies: ["WechatOpenSDK"]),
+        .binaryTarget(name: "WechatOpenSDK", url: "https://github.com/jccapril/WechatOpenSDK/releases/download/2.0.2/WechatOpenSDK-XCFramework.xcframework.zip", checksum: "90cc526d3bec5bbb8ae50ac3b97576920bd7386d4ad8bf24761af2343edd06b1"),
     ]
 )
